@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>healthmatters</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .registration-form {
+            max-width: 500px;
+            /* increased max-width to accommodate additional fields */
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f8f8;
+            border-radius: 5px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        input,
+        textarea {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        textarea {
+            resize: vertical;
+            /* added resize property to textarea */
+        }
+
+        .register-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .register-btn:hover {
+            background-color: #dda77bff;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <!-- ***********************  HOMEPAGE  *********************** -->
+
+        <header>
+            <div class="wrapper">
+                <a href="index.html">
+                    <div class="logo">
+                        <img src="images/Zen.png" alt="description of image">
+
+                        <nav>
+
+                            <ul class="navigation">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="typesofmediation.html">Know Meditation Types</a></li>
+                                <li><a href="beginners.html">Meditation For Beginners</a></li>
+                                <li> <a href="joinnow.html">Join Now</a></li>
+                                <li> <a href="register.html">Register</a></li>
+                                <li class="right"><a href="contact.html">Contact </a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- ********************  register block ?  ********************* -->
+                    <h1> </h1>
+
+
+                    <h2>Join our classes to learn to meditate in seven weeks</h2>
+
+                    <p>Meditation is a practice of training the mind to achieve a state of calm awareness, mindfulness,
+                        and inner
+                        peace.</p>
+                    <p>"The mind is everything. What you think, you become."~ Buddha </p>
+            </div>
+        </header>
+        <section>
+            <form class="registration-form">
+                <h2>Registration Form</h2>
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="City">
+                <input type="text" placeholder="Province">
+                <input type="tel" placeholder="Phone">
+                <textarea placeholder="What do you plan to achieve by meditating?"></textarea>
+                <input type="text" placeholder="How did you hear about us?">
+                <button class="register-btn">Register</button>
+            </form>
+
+        </section>
+
+        <footer>
+            <div class="wrapper">
+                <h2>Let's do it!</h2>
+
+                <!-- Social media and contact links. -->
+                <p>Join our daily challenge of meditation atleast 20 minutes each day </p>
+                <p>Fill the form and join the challenge </p>
+                <a href="joinnow.html">JOIN NOW</a>
+
+                <ul>
+                    <li><a href="mailto:email@example.com">email@example.com</a></li>
+                    <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
+                    <li><a href="#" target="_blank">Twitter</a></li>
+                    <li><a href="#" target="_blank">LinkedIn</a></li>
+                    <li><a href="#" target="_blank">Facebook</a></li>
+                </ul>
+            </div>
+        </footer>
+
+    </main>
+</body>
+
+</html>

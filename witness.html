@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Head section -->
+    <meta charset="utf-8">
+    <title>Image Gallery</title>
+    <style>
+        /* Image gallery container */
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        /* Image item */
+        .image-gallery img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* Hover effect */
+        .image-gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image-gallery">
+        <!-- Image items -->
+        <img src="images/yess.jpeg" alt="Image 1">
+        <img src="images/peace.jpeg" alt="Image 2">
+        <img src="images/awareness.jpeg" alt="Image 3">
+        <img src="images/karma.jpeg" alt="Image 4">
+        <img src="images/Meditation Logo Template.jpeg" alt="Image 5">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 20px 15%;
+        }
+
+        form header {
+            margin: 0 0 20px 0;
+        }
+
+        form header div {
+            font-size: 90%;
+            color: #999;
+        }
+
+        form header h2 {
+            margin: 0 0 5px 0;
+        }
+
+        form>div {
+            clear: both;
+            overflow: hidden;
+            padding: 10px;
+            margin: 0;
+        }
+
+        #user {
+            font-size: 44px;
+            text-align: center;
+            margin-top: 0;
+            padding-top: 20px;
+        }
+
+
+
+        form>div>fieldset>div>div {
+            margin: 0 0 5px 0;
+        }
+
+        form>div>label,
+        legend {
+            width: 25%;
+            float: left;
+            padding-right: 10px;
+        }
+
+        form>div>div,
+        form>div>fieldset>div {
+            width: 75%;
+            float: right;
+        }
+
+        form>div>fieldset label {
+            font-size: 90%;
+        }
+
+        fieldset {
+            border: 0;
+            padding: 0;
+        }
+
+        input[type=text],
+        input[type=email],
+        input[type=url],
+        input[type=password],
+        textarea {
+            width: 100%;
+            border-top: 1px solid #ccc;
+            border-left: 1px solid #ccc;
+            border-right: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+        }
+
+        input[type=text],
+        input[type=email],
+        input[type=url],
+        input[type=password] {
+            width: 50%;
+        }
+
+        input[type=text]:focus,
+        input[type=email]:focus,
+        input[type=url]:focus,
+        input[type=password]:focus,
+        textarea:focus {
+            outline: 0;
+            border-color: #4697e4;
+        }
+
+        @media (max-width: 600px) {
+            form>div {
+                margin: 0 0 15px 0;
+            }
+
+            form>div>label,
+            legend {
+                width: 100%;
+                float: none;
+                margin: 0 0 5px 0;
+            }
+
+            form>div>div,
+            form>div>fieldset>div {
+                width: 100%;
+                float: none;
+            }
+
+            input[type=text],
+            input[type=email],
+            input[type=url],
+            input[type=password],
+            textarea,
+            select {
+                width: 100%;
+            }
+        }
+
+        @media (min-width: 1200px) {
+
+            form>div>label,
+            legend {
+                text-align: right;
+            }
+        }
+
+        .logo img {
+            float: left;
+            width: 100px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="wrapper">
+                <a href="index.html">
+                    <div class="logo">
+                        <img src="images/Zen.png" alt="description of image">
+
+                        <nav>
+
+                            <ul class="navigation">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="typesofmediation.html">Know Meditation Types</a></li>
+                                <li><a href="beginners.html">Meditation For Beginners</a></li>
+                                <li> <a href="joinnow.html">Join Now</a></li>
+                                <li> <a href="register.html">Register</a></li>
+                                <li class="right"><a href="contact.html">Contact </a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <h1>Discover Yourself </h1>
+
+
+                    <h2>Through Meditation</h2>
+                    <!-- ********************  WHAT IS MEDITATION ?  ********************* -->
+                    <p>Meditation is a practice of training the mind to achieve a state of calm awareness, mindfulness,
+                        and
+                        inner
+                        peace.</p>
+                    <p>"The mind is everything. What you think, you become."~ Buddha </p>
+            </div>
+        </header>
+        <section class="meditation-types">
+
+            <h1 id="user">User Information Form</h1>
+            <form action="#">
+                <div>
+                    <label class="desc" id="title1" for="Field1">Full Name:</label>
+                    <div>
+                        <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8"
+                            tabindex="1" required>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="desc" id="title3" for="Field3">
+                        Email
+                    </label>
+                    <div>
+                        <input id="Field3" name="Field3" type="email" spellcheck="false" value="" maxlength="255"
+                            tabindex="3" required>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="desc" id="title4" for="Field4">
+                        Any specific meditation techniques or practices you follow (if applicable):
+                    </label>
+
+                    <div>
+                        <textarea id="Field4" name="Field4" spellcheck="true" rows="10" cols="50"
+                            tabindex="4"></textarea>
+                    </div>
+                </div>
+
+                <div>
+                    <fieldset>
+
+                        <legend id="title5" class="desc">
+                            How did you hear about us?
+                        </legend>
+
+                        <div>
+                            <input id="radioDefault_5" name="Field5" type="hidden" value="">
+                            <div>
+                                <input id="Field5_0" name="Field5" type="radio" value="First Choice" tabindex="5"
+                                    checked="checked">
+                                <label class="choice" for="Field5_0">Facebook</label>
+                            </div>
+                            <div>
+                                <input id="Field5_1" name="Field5" type="radio" value="Second Choice" tabindex="6">
+                                <label class="choice" for="Field5_1">Instagram</label>
+                            </div>
+                            <div>
+                                <input id="Field5_2" name="Field5" type="radio" value="Third Choice" tabindex="7">
+                                <label class="choice" for="Field5_2">Twiiter</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div>
+                    <fieldset>
+                        <legend id="title6" class="desc">
+                            Time of day for meditation:(click all that apply)
+                        </legend>
+                        <div>
+                            <input id="Field6" name="Field6" type="checkbox" value="First Choice" tabindex="8">
+                            <label class="choice" for="Field6">Morning</label>
+                        </div>
+                        <div>
+                            <input id="Field7" name="Field7" type="checkbox" value="Second Choice" tabindex="9">
+                            <label class="choice" for="Field7">Evening </label>
+                        </div>
+                        <div>
+                            <input id="Field8" name="Field8" type="checkbox" value="Third Choice" tabindex="10">
+                            <label class="choice" for="Field8">night</label>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div>
+                    <label class="desc" id="title106" for="Field106">
+                        Mode Of Attending
+                    </label>
+                    <div>
+                        <select id="Field106" name="Field106" class="field select medium" tabindex="11">
+                            <option value="First Choice">in-person</option>
+                            <option value="Second Choice">online</option>
+                            <!-- <option value="Third Choice">Third Choice</option> -->
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <input id="saveForm" name="saveForm" type="submit" value="Submit">
+                    </div>
+                </div>
+
+            </form>
+        </section>
+        <footer>
+            <div class="wrapper">
+                <h2>Let's do it!</h2>
+
+                <!-- Social media and contact links. -->
+                <p>Join our daily challenge of meditation atleast 20 minutes each day </p>
+                <p>Fill the form and join the challenge </p>
+                <a href="joinnow.html">JOIN NOW</a>
+
+                <ul>
+                    <li><a href="mailto:email@example.com">email@example.com</a></li>
+                    <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
+                    <li><a href="#" target="_blank">Twitter</a></li>
+                    <li><a href="#" target="_blank">LinkedIn</a></li>
+                    <li><a href="#" target="_blank">Facebook</a></li>
+                </ul>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+/* CSS HEX 
+--buff: #dda77bff;
+--african-violet:#b68cb8ff;
+--non-photo-blue: #a0d2dbff;
+--raisin-black: #272727ff;
+--dark-slate-gray: #416165ff;  */
+
+/* .      Global styles
+------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  color: #343434;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+img {
+  width: 300px;
+}
+
+.navigation {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navigation a {
+  padding: 0.5em 1em;
+  display: block;
+}
+.right {
+  margin-left: auto;
+}
+a {
+  color: #272727ff;
+}
+a:hover {
+  text-decoration: none;
+}
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+h1 {
+  font-size: 100px;
+}
+h2 {
+  margin: 0;
+  font-size: 40px;
+}
+h1,
+h2 {
+  font-weight: 500;
+}
+
+.logo img {
+  float: left;
+  width: 100px;
+}
+
+/*        Introduction meaning of meditation
+------------------------------------*/
+header {
+  background: #dda77bff;
+  color: #f7fff7;
+}
+
+/*        articles block
+------------------------------------*/
+.articles {
+  background: #b68cb8ff;
+}
+.articles a {
+  color: #416165ff;
+}
+
+.articles .btn {
+  color: #f7fff7;
+  background-color: #dda77bff;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+.articles .btn:hover {
+  background: #b68cb8ff;
+}
+.article-1 {
+  overflow: hidden;
+  border-bottom: 1px solid;
+  padding: 30px 0;
+}
+.article-1 img {
+  float: left;
+  margin-right: 20px;
+}
+.article-1 h3 {
+  margin-top: 0;
+}
+
+/*        meditation Types block
+------------------------------------*/
+.meditation-types {
+  background: #a0d2dbff;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/*        Meditation benfits block
+------------------------------------*/
+.benefit-meditation {
+  background: #416165ff;
+  color: #f7fff7;
+}
+
+/*       Contact Info
+------------------------------------*/
+footer {
+  background: #272727ff;
+  color: #f7fff7;
+}
+a {
+  color: #f7fff7;
+}
+
+.user {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+/* 
+       beginner .html
+ -------------------------------------*/
+
+.wrapsbegin > img {
+  width: 748px;
+  height: 421px;
+  object-fit: contain;
+}
+/* 
+abc
+ -------------------------------------*/
+
+/* 
+abc
+ -------------------------------------*/
+/* 
+abc
+ -------------------------------------*/
+/* abc
+
+ -------------------------------------*/
